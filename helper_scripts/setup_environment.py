@@ -98,7 +98,7 @@ def _generate_run_py_script_with_correct_path(main_script_name: str) -> None:
 
 if __name__ == "__main__":
     print("########## Environment setup ##########\n")
-    # _webots_uses_correct_python_executable()
+    _webots_uses_correct_python_executable()
     _webots_home_to_content_roots()
     _generate_run_py_script_with_correct_path("main.py")
     print("#######################################")
