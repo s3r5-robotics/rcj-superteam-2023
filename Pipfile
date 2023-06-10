@@ -1,0 +1,10 @@
+[[source]]
+url = "https://pypi.org/simple"
+name = "pypi"
+verify_ssl = true
+
+[packages]
+opencv-python = "==4.7.0.72"
+numpy = "==1.24.3"
+imutils = "==0.5.4"
+scikit-image = "==0.21.0"
